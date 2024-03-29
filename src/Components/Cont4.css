@@ -1,0 +1,113 @@
+.cont4{
+    width:100%;
+    height:650px;
+}
+
+@media screen and (max-width:400px) {
+    .cont4{
+        width:100%;
+        height:1080px;
+    }
+}
+
+
+@media screen and (min-width:401px) and (max-width:700px) {
+    .cont4{
+        height:1080px;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:1200px) {
+    .cont4{
+        height:580px;
+    }
+}
+
+.cont4 h1,p{
+    text-align:center;
+}
+
+.cont4percent{
+    width:80%;
+    height:500px;
+    margin:auto;
+}
+
+
+@media screen and (max-width:400px) {
+    .cont4percent{
+        width:100%;
+        height:970px;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:700px) {
+    .cont4percent{
+        width:100%;
+        height:970px;
+    }
+}
+
+
+@media screen and (min-width:701px) and (max-width:900px) {
+    .cont4percent{
+        width:100%;
+        height:370px;
+    }
+}
+
+
+.cont4cards{
+    width:30%;
+    height:80%;
+    border:1px solid black;
+    float:left;
+    margin-left:3%;
+    margin-top:2%;
+}
+
+@media screen and (max-width:400px) {
+    .cont4cards{
+        width:100%;
+        height:280px;
+        margin-left:0px;
+        margin-top:20px;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:700px) {
+    .cont4cards{
+    width:80%;
+    margin-left:9%;
+    height:300px;
+    }
+}
+
+.explore{
+    width:100%;
+    height:13%;
+}
+
+.contofmin{
+    width:50%;
+    height:100%;
+    float: left;
+}
+
+.contofmin a{
+    right:0;
+}
+
+
+#nn:hover{
+    display:none;
+}
+
+.cont4cards:hover{
+    box-shadow: 0 4px 8px rgba(51, 66, 67, 0.79), 0 6px 20px rgba(111, 199, 131, 0.719);
+}
+
+.cont4cards img{
+    width:100%;
+    height:87%;
+}

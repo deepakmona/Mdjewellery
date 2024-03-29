@@ -1,0 +1,9 @@
+.d-block{
+    height:680px;
+}
+
+@media screen and (max-width: 768px) {
+    .d-block{
+        height:400px;
+    }
+}

@@ -1,0 +1,15 @@
+.cont2{
+width:100%;
+height:400px;
+}
+
+@media screen and (max-width:600px) {
+    .cont2{
+        height:300px;
+    }
+}
+
+.cont2 p,h1{
+text-align:center;
+color:#832729;
+}
