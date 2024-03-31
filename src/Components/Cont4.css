@@ -1,25 +1,25 @@
 .cont4{
     width:100%;
-    height:650px;
+    height:1150px;
 }
 
 @media screen and (max-width:400px) {
     .cont4{
         width:100%;
-        height:1080px;
+        height:1280px;
     }
 }
 
 
 @media screen and (min-width:401px) and (max-width:700px) {
     .cont4{
-        height:1080px;
+        height:1280px;
     }
 }
 
 @media screen and (min-width:701px) and (max-width:1200px) {
     .cont4{
-        height:580px;
+        height:800px;
     }
 }
 
@@ -110,4 +110,28 @@
 .cont4cards img{
     width:100%;
     height:87%;
+}
+
+#gift{
+    width:100%;
+}
+
+@media screen and (max-width:400px) {
+    #gift{
+        width:100%;
+        height:200px;
+    }
+}
+
+
+@media screen and (min-width:401px) and (max-width:700px) {
+    #gift{
+        height:250px;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:1200px) {
+    #gift{
+        height:300px;
+    }
 }
