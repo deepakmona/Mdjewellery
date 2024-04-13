@@ -2,3 +2,8 @@
     height:50px;
     width: 180px;
 }
+
+#toggleicon{
+    background-color:black;
+    border-radius:50px;
+}

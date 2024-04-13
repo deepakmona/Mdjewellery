@@ -1,0 +1,52 @@
+.cont6{
+    width:100%;
+    height:1000px;
+}
+
+
+@media screen and (max-width:600px) {
+    .cont6{
+        height:600px;
+    }
+}
+
+
+.halfoftwocont61{
+    width:80%;
+    height:450px;
+    margin:auto;
+}
+
+
+@media screen and (max-width:600px) {
+    .halfoftwocont61{
+        width:100%;
+        height:300px;
+    }
+}
+
+.halfoftwocont62{
+    width:80%;
+    height:450px;
+    margin:auto;
+}
+
+
+@media screen and (max-width:600px) {
+    .halfoftwocont62{
+        width:100%;
+        height:200px;
+    }
+}
+
+.halfoftwocont61 img{
+    width:100%;
+    height:100%;
+    border-radius:30px;
+}
+
+.halfoftwocont62 video{
+    width:100%;
+    height:100%;
+    border-radius:30px;
+}
