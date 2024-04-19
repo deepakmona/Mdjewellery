@@ -6,21 +6,28 @@
 
 @media screen and (max-width:600px) {
     .cont8main{
-    height:800px;
+    height:750px;
     }
 }
+
+
+@media screen and (min-width:601px) and (max-width:1100px) {
+    .cont8main{
+    height:450px;
+    }
+}
+
 
 .smallofcont8{
     width:80%;
     height:250px;
-    background-color:blue;
     margin:auto;
 }
 
 
 @media screen and (max-width:600px) {
     .smallofcont8{
-    height:650px;
+    height:570px;
     }
 }
 
@@ -32,11 +39,12 @@
 
 .smallcont8n{
     width:30%;
-    height:200px;
-    background-color:pink;
+    height:170px;
     float:left;
     margin-left:3%;
     margin-top:2%;
+    border:2px solid black;
+    border-radius:5px;
 }
 
 
@@ -44,5 +52,32 @@
     .smallcont8n{
     width:100%;
     margin-left:0px;
+    margin-top:5%;
     }
+}
+
+.hoc8{
+    width:50%;
+    height:100%;
+    float:left;
+}
+
+.hoc8 h3{
+    color: brown;
+    margin-top:20px;
+}
+
+.hoc8 button{
+    margin-top:20px;
+    margin-left:20px;
+    background-color:rgb(237, 223, 226);
+}
+
+.hoc8 button:hover{
+    width:150px;
+}
+.hoc8 img{
+    width:80%;
+    margin-top:5%;
+    height:80%;
 }
