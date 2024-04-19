@@ -6,6 +6,7 @@ import Cont4 from './Components/Cont4'
 import Cont5 from './Components/Cont5'
 import Cont6 from './Components/Cont6'
 import Cont7 from './Components/Cont7'
+import Cont8 from './Components/Cont8'
 import Navbar from './Components/Navbar'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Cont5/>
     <Cont6/>
     <Cont7/>
+    <Cont8/>
     </>
   )
 }
